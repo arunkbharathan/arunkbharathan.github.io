@@ -28,6 +28,7 @@ table tr:first-child td:last-child {
     border-top-right-radius: 10px;
 }
 
+
 td.col1{
     background: #c2c2c3;
     width:20%;
@@ -47,9 +48,9 @@ table {
    
 }
 body{
-   background: #1e5799;
-background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 12%, #207cca 13%, #207cca 13%, #7db9e8 100%);
-background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 12%,#207cca 13%,#207cca 13%,#7db9e8 100%);
-background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 12%,#207cca 13%,#207cca 13%,#7db9e8 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+    background: #1e5799;
+    background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 12%, #207cca 13%, #207cca 13%, #7db9e8 100%);
+    background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 12%,#207cca 13%,#207cca 13%,#7db9e8 100%);
+    background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 12%,#207cca 13%,#207cca 13%,#7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0);
 }
