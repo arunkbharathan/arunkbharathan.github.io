@@ -2,7 +2,7 @@ function start (i){
     let mysum = document.getElementById("summary");
     let myul = mysum.getElementsByTagName("ul")[0];
     let newli = document.createElement("li");
-    newli.innerHTML="skill "+i;
+    newli.innerHTML="Skill "+i;
     myul.appendChild(newli);
 }
 

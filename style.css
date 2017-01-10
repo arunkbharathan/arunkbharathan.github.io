@@ -13,15 +13,23 @@ body{
     background-color:#cee1ff;
 }
 
-#summary  h2{
-    color:grey;
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
 }
 
-table{
-    cell
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
 }
+
+table tr:first-child td:first-child {
+    border-top-left-radius: 10px;
+}
+table tr:first-child td:last-child {
+    border-top-right-radius: 10px;
+}
+
 td.col1{
-    background: #e8ebef;
+    background: #c2c2c3;
     width:20%;
     padding: 1% 1%;
     text-align:left;
@@ -37,4 +45,11 @@ td.col2{
 table { 
     border-spacing: 1px;
    
+}
+body{
+   background: #1e5799;
+background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 12%, #207cca 13%, #207cca 13%, #7db9e8 100%);
+background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 12%,#207cca 13%,#207cca 13%,#7db9e8 100%);
+background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 12%,#207cca 13%,#207cca 13%,#7db9e8 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
 }
