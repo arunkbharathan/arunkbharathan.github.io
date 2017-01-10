@@ -45,14 +45,14 @@ table tr:first-child td:last-child {
 
 td.col1{
     background: #c2c2c3;
-    width:1%;
+    width:5%;
     padding: 1% 1%;
     text-align:left;
     vertical-align:top;
 }
 td.col2{
     background: #cee1ff;
-    width:36%;
+    width:14%;
     padding:1% 1%;
     text-align: justify;
 }
